@@ -1,0 +1,34 @@
+/* Carosel.css */
+
+.carousel-inner {
+    max-height: 700px; /* Adjust the height of the carousel */
+}
+
+.carousel-img {
+    object-fit: cover;
+    height: 100vh; /* Adjust the height to prevent stretching */
+}
+
+.carousel-caption {
+    bottom: 50px;
+}
+
+.carousel-indicators button {
+    background-color: #fff; /* Change indicator color to white */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    font-size: 20px !important;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 767px) {
+    .carousel-img {
+        height: 300px; /* Reduce height for smaller screens */
+    }
+}

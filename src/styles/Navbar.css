@@ -1,0 +1,12 @@
+nav{
+      background: linear-gradient(45deg, rgba(116, 72, 255, 1), rgba(89, 159, 255, 1)); ;
+      color: white;
+      /* position: fixed !important;
+      top: 0;
+      left: 0;
+      right: 0;
+      width: 100%; 
+      background-color: #333; 
+      padding: 10px 20px; 
+      z-index: 1000; */
+}
